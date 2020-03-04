@@ -1,0 +1,27 @@
+.menu{
+    -webkit-box-shadow: 41px -17px 45px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 41px -17px 45px 0px rgba(0,0,0,0.16);
+    box-shadow: 41px -17px 45px 0px rgba(0,0,0,0.16);
+    margin : 80px 8px;
+    height: 100%;
+    width: 100%;
+}
+.ant-menu {
+    width: 100% !important;
+
+}
+@media screen and (max-width: 1310px){
+    .ant-col-4{
+        display: block;
+        -ms-flex: 0 0 80%;
+         flex: 0 0 80%; 
+         max-width: 100%; 
+         width: 100%;
+         
+    }
+    .menu {
+        height: max-content !important;
+        margin: 20px auto;
+    }
+
+}
